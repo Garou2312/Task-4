@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="509.0" prefWidth="737.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task5.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <ImageView fx:id="imageView" fitHeight="387.0" fitWidth="620.0" pickOnBounds="true" preserveRatio="true" />
+    <HBox prefHeight="54.0" prefWidth="319.0">
+        <children>
+            <Button mnemonicParsing="false" onAction="#onButtonClick" prefHeight="26.0" prefWidth="146.0" text="Назад" />
+            <Button mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="26.0" prefWidth="170.0" text="Вперед" />
+            <Button mnemonicParsing="false" onAction="#onPlay" prefHeight="27.0" prefWidth="166.0" text="Запуск" />
+            <Button mnemonicParsing="false" onAction="#onPause" prefHeight="26.0" prefWidth="172.0" text="Пауза" />
+        </children>
+    </HBox>
+</VBox>
